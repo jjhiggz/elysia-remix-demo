@@ -1,0 +1,8 @@
+{
+  "name": "bun-elysia",
+  "private": true,
+  "workspaces": [
+    "backend",
+    "frontend"
+  ]
+}

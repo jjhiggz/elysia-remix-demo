@@ -1,0 +1,21 @@
+{
+  "name": "backend",
+  "version": "1.0.50",
+  "scripts": {
+    "dev": "bun run --watch index.ts"
+  },
+  "dependencies": {
+    "@elysiajs/cors": "0.6.2",
+    "@elysiajs/swagger": "^0.7.4",
+    "@lucia-auth/adapter-prisma": "^3.0.2",
+    "@lucia-auth/oauth": "^3.3.1",
+    "@prisma/client": "^5.5.2",
+    "elysia": "latest",
+    "lucia": "^2.7.2"
+  },
+  "devDependencies": {
+    "bun-types": "^1.0.7",
+    "prisma": "^5.5.2"
+  },
+  "module": "src/index.js"
+}

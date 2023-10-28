@@ -1,0 +1,47 @@
+import type { Config } from "tailwindcss";
+
+export default {
+  content: ["./app/**/*.{js,jsx,ts,tsx}"],
+  theme: {
+    fontFamily: {
+      monospace: ["Monospace"],
+    },
+    extend: {},
+  },
+  plugins: [require("@tailwindcss/typography"), require("daisyui")],
+  daisyui: {
+    themes: [
+      "bumblebee",
+      "light",
+      "dark",
+      "cupcake",
+      "emerald",
+      "corporate",
+      "synthwave",
+      "retro",
+      "cyberpunk",
+      "valentine",
+      "halloween",
+      "garden",
+      "forest",
+      "aqua",
+      "lofi",
+      "pastel",
+      "fantasy",
+      "wireframe",
+      "black",
+      "luxury",
+      "dracula",
+      "cmyk",
+      "autumn",
+      "business",
+      "acid",
+      "lemonade",
+      "night",
+      "coffee",
+      "winter",
+      "synthwave",
+      "cupcake",
+    ],
+  },
+} satisfies Config;
