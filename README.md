@@ -2,18 +2,34 @@
 
 ## Getting Started
 
-To get started with this template, simply paste this command into your terminal:
+To get started with this template, simply paste this command into your terminal from the root of this project:
 
 ```bash
-bun create elysia ./elysia-example
+bun i
 ```
 
-## Development
+## Backend
 
-To start the development server run:
+cd one terminal into your backend before running the following commands
+
+Run migrations
+
+```bash
+bun prisma migrate dev
+```
+
+Run Server
 
 ```bash
 bun run dev
 ```
 
 Open <http://localhost:3000/> with your browser to see the result.
+
+## Frontend
+
+cd your other terminal into the frontend and run the following command
+
+```bash
+bun run dev
+```
